@@ -3,6 +3,7 @@
     "description": "Hexlet project",
     "type": "project",
     "bin": ["bin/brain-games"],
+    "minimum-stability": "dev",
     "authors": [
         {
             "name": "Anatoly",
