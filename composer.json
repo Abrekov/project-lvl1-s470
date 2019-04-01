@@ -1,0 +1,13 @@
+{
+    "name": "anatoly/brain-games",
+    "description": "Hexlet project",
+    "type": "project",
+    "bin": ["bin/brain-games"],
+    "authors": [
+        {
+            "name": "Anatoly",
+            "email": "abrekov@ya.ru"
+        }
+    ],
+    "require": {}
+}
