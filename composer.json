@@ -1,5 +1,5 @@
 {
-    "name": "anatoly/brain-games",
+    "name": "abrekov/brain-games",
     "description": "Hexlet project",
     "type": "project",
     "bin": ["bin/brain-games"],
