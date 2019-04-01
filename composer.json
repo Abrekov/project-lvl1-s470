@@ -9,5 +9,6 @@
             "email": "abrekov@ya.ru"
         }
     ],
+    "keywords": ["hexlet", "brain-games"],
     "require": {}
 }
