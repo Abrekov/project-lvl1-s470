@@ -3,6 +3,7 @@
     "description": "Hexlet project",
     "type": "project",
     "bin": ["bin/brain-games"],
+    "scripts": {"phpcs": "phpcs"},
     "authors": [
         {
             "name": "Anatoly",
@@ -17,5 +18,8 @@
     },
     "require": {
         "wp-cli/php-cli-tools": "^0.11.11"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.4"
     }
 }
