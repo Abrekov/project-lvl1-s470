@@ -10,13 +10,13 @@ function isEven(int $number)
     return $number % 2 === 0;
 }
 
-$gameDescription = 'Answer "yes" if number even otherwise answer "no".';
-$question = rand(1, 100);
-$correctAnswer = isEven($question) ? 'yes' : 'no';
-
 $roundsOfGame = 3;
-function run(string $gameDescription, int $question, string $correctAnswer)
+function run()
 {
+    $gameDescription = 'Answer "yes" if number even otherwise answer "no".';
+    $question = rand(1, 100);
+    $correctAnswer = isEven($question) ? 'yes' : 'no';
+
     line('Welcome to the Brain Games!');
     line($gameDescription);
     $name = getName('May I have your name?');
@@ -35,9 +35,4 @@ function run(string $gameDescription, int $question, string $correctAnswer)
         }
     }
     line("Congratulations, {$name}!");
-};
-
-function gameEven()
-{
-    run($gameDescription, $question, $correctAnswer);
 };
