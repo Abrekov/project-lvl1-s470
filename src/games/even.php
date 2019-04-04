@@ -13,6 +13,7 @@ function isEven(int $number)
 $roundsOfGame = 3;
 function run()
 {
+    $roundsOfGame = 3;
     $gameDescription = 'Answer "yes" if number even otherwise answer "no".';
     $question = rand(1, 100);
     $correctAnswer = isEven($question) ? 'yes' : 'no';
