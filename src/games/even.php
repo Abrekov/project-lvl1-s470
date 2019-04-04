@@ -1,10 +1,18 @@
 <?php
-
-namespace BrainGames\Cli;
+namespace BrainGames\games\even;
 
 use function \cli\line;
 use function \cli\prompt as getName;
 use function \cli\prompt as getAnswer;
+
+function isEven(int $number)
+{
+    return $number % 2 === 0;
+}
+
+$gameDescription = 'Answer "yes" if number even otherwise answer "no".';
+$question = rand(1, 100);
+$correctAnswer = isEven($question) ? 'yes' : 'no';
 
 $roundsOfGame = 3;
 function run(string $gameDescription, int $question, string $correctAnswer)
@@ -27,4 +35,9 @@ function run(string $gameDescription, int $question, string $correctAnswer)
         }
     }
     line("Congratulations, {$name}!");
+};
+
+function gameEven()
+{
+    run($gameDescription, $question, $correctAnswer);
 };

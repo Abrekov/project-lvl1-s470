@@ -2,18 +2,27 @@
     "name": "abrekov/brain-games",
     "description": "Hexlet project",
     "type": "project",
-    "bin": ["bin/brain-games"],
-    "scripts": {"phpcs": "phpcs"},
+    "bin": [
+        "bin/brain-games",
+        "bin/brain-even"
+    ],
+    "scripts": {
+        "phpcs": "phpcs"
+    },
     "authors": [
         {
             "name": "Anatoly",
             "email": "abrekov@ya.ru"
         }
     ],
-    "keywords": ["hexlet", "brain-games"],
+    "keywords": [
+        "hexlet",
+        "brain-games"
+    ],
     "autoload": {
         "files": [
-            "src/Cli.php"
+            "src/Cli.php",
+            "src/games/even.php"
         ]
     },
     "require": {
