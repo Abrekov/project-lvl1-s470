@@ -2,4 +2,5 @@
 
 [![Build Status](https://travis-ci.org/Abrekov/project-lvl1-s470.svg?branch=master)](https://travis-ci.org/Abrekov/project-lvl1-s470)
 
-<a href="https://asciinema.org/a/Xea8N25zWZT1cgTMfr9QiIU7I" target="_blank"><img src="https://asciinema.org/a/Xea8N25zWZT1cgTMfr9QiIU7I.svg" /></a>
+<a href="https://asciinema.org/a/HSO4AnlIOlUxH8pt8yLScfvTu" target="_blank"><img src="https://asciinema.org/a/HSO4AnlIOlUxH8pt8yLScfvTu.svg" /></a>
+
