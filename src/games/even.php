@@ -8,7 +8,7 @@ function isEven(int $number)
     return $number % 2 === 0;
 }
 
-const GAMEDESCRIPTION = 'Answer "yes" if number even otherwise answer "no".';
+const GAME_DESCRIPTION = 'Answer "yes" if number even otherwise answer "no".';
 
 function gameEven()
 {
@@ -18,5 +18,5 @@ function gameEven()
         return [$question, $correctAnswer];
     };
 
-    run(GAMEDESCRIPTION, $questionAndCorrectanswer);
+    run(GAME_DESCRIPTION, $questionAndCorrectanswer);
 }
