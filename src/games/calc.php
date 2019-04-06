@@ -18,7 +18,7 @@ function calculate($number1, $number2, $operator)
 }
 function gameCalc()
 {
-    $questionAndCorrectanswer = function () {
+    $getQuestionAndCorrectanswer = function () {
         $number1 = rand(1, 10);
         $number2 = rand(1, 10);
         $operator = OPERATORS[array_rand(OPERATORS)];
@@ -27,5 +27,5 @@ function gameCalc()
         $correctAnswer = (string)calculate($number1, $number2, $operator);
         return [$question, $correctAnswer];
     };
-    run(GAME_DESCRIPTION, $questionAndCorrectanswer);
+    run(GAME_DESCRIPTION, $getQuestionAndCorrectanswer);
 }

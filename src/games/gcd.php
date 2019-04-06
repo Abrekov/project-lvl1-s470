@@ -14,12 +14,12 @@ function getGreatestCommonDivisor($a, $b)
 
 function gameGcd()
 {
-    $questionAndCorrectanswer = function () {
+    $getQuestionAndCorrectanswer = function () {
         $number1 = rand(1, 20);
         $number2 = rand(1, 20);
         $question = "{$number1} {$number2}";
         $correctAnswer = (string) getGreatestCommonDivisor($number1, $number2);
         return [$question, $correctAnswer];
     };
-    run(GAME_DESCRIPTION, $questionAndCorrectanswer);
+    run(GAME_DESCRIPTION, $getQuestionAndCorrectanswer);
 }
