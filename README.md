@@ -7,7 +7,9 @@ Brain games is a set of mini-games launched from the console. These games are si
 [![Build Status](https://travis-ci.org/Abrekov/project-lvl1-s470.svg?branch=master)](https://travis-ci.org/Abrekov/project-lvl1-s470)
 
 Game: "Check for even"
+
 Install: composer global require abrekov/brain-games:dev-master
+
 Play: brain-even
 
 <a href="https://asciinema.org/a/HSO4AnlIOlUxH8pt8yLScfvTu" target="_blank"><img src="https://asciinema.org/a/HSO4AnlIOlUxH8pt8yLScfvTu.svg" /></a>
