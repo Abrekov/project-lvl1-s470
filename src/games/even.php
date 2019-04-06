@@ -12,11 +12,11 @@ const GAME_DESCRIPTION = 'Answer "yes" if number even otherwise answer "no".';
 
 function gameEven()
 {
-    $getQuestionAndCorrectanswer = function () {
+    $generateQuestionAndCorrectanswer = function () {
         $question = rand(1, 100);
         $correctAnswer = isEven($question) ? 'yes' : 'no';
         return [$question, $correctAnswer];
     };
 
-    run(GAME_DESCRIPTION, $getQuestionAndCorrectanswer);
+    run(GAME_DESCRIPTION, $generateQuestionAndCorrectanswer);
 }

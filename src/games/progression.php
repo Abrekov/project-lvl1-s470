@@ -3,18 +3,18 @@ namespace BrainGames\games\progression;
 use function BrainGames\engine\run;
 
 const GAME_DESCRIPTION = 'What number is missing in the progression?';
+const LENGTH = 10;
 
 function gameProgression()
 {
-    $getQuestionAndCorrectanswer = function () {
+    $generateQuestionAndCorrectanswer = function () {
         $beginOfSequence = rand(1, 100);
         $step = 2;
-        $length = 10;
-        $correctAnswer = rand(0, $length - 1) * $step + $beginOfSequence;
-        $question = getQuestion($beginOfSequence, $step, $length, $correctAnswer);
+        $correctAnswer = rand(0, LENGTH - 1) * $step + $beginOfSequence;
+        $question = getQuestion($beginOfSequence, $step, LENGTH, $correctAnswer);
         return [$question, (string)$correctAnswer];
     };
-    run(GAME_DESCRIPTION, $getQuestionAndCorrectanswer);
+    run(GAME_DESCRIPTION, $generateQuestionAndCorrectanswer);
 }
 
 function getQuestion($beginOfSequence, $step, $length, $correctAnswer)

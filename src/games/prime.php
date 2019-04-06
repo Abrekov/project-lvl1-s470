@@ -6,12 +6,12 @@ const GAME_DESCRIPTION = 'Answer "yes" if given number is prime. Otherwise answe
 
 function gamePrime()
 {
-    $getQuestionAndCorrectanswer = function () {
+    $generateQuestionAndCorrectanswer = function () {
         $question = rand(2, 100);
         $correctAnswer = isPrime($question) ? 'yes' : 'no';
         return [$question, (string)$correctAnswer];
     };
-    run(GAME_DESCRIPTION, $getQuestionAndCorrectanswer);
+    run(GAME_DESCRIPTION, $generateQuestionAndCorrectanswer);
 }
 
 function isPrime($number)
