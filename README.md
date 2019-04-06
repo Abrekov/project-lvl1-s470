@@ -24,3 +24,4 @@ Game: "Arithmetic Progression"
 
 Game: "Is it a simple number?"
 
+<a href="https://asciinema.org/a/LHBNksft8XRjY41SgNfknW7y1" target="_blank"><img src="https://asciinema.org/a/LHBNksft8XRjY41SgNfknW7y1.svg" /></a>
