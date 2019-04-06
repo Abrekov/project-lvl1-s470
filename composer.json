@@ -5,7 +5,8 @@
     "bin": [
         "bin/brain-games",
         "bin/brain-even",
-        "bin/brain-calc"
+        "bin/brain-calc",
+        "bin/brain-gcd"
     ],
     "scripts": {
         "phpcs": "phpcs"
@@ -24,7 +25,8 @@
         "files": [
             "src/Cli.php",
             "src/games/even.php",
-            "src/games/calc.php"
+            "src/games/calc.php",
+            "src/games/gcd.php"
         ]
     },
     "require": {
