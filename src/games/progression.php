@@ -12,7 +12,8 @@ function gameProgression()
         $step = 2;
         $correctAnswer = rand(0, LENGTH - 1) * $step + $beginOfSequence;
         $question = getQuestion($beginOfSequence, $step, LENGTH, $correctAnswer);
-        return [$question, (string)$correctAnswer];
+        $correctAnswer = (string) $correctAnswer;
+        return [$question, $correctAnswer];
     };
     run(GAME_DESCRIPTION, $generateQuestionAndCorrectanswer);
 }
