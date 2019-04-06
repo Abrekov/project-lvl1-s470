@@ -10,7 +10,7 @@ function isEven(int $number)
 
 const GAME_DESCRIPTION = 'Answer "yes" if number even otherwise answer "no".';
 
-function gameEven()
+function playEven()
 {
     $generateQuestionAndCorrectanswer = function () {
         $question = rand(1, 100);

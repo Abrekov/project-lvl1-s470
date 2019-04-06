@@ -16,7 +16,7 @@ function calculate($number1, $number2, $operator)
             return $number1 * $number2;
     }
 }
-function gameCalc()
+function playCalc()
 {
     $generateQuestionAndCorrectanswer = function () {
         $number1 = rand(1, 10);

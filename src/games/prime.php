@@ -4,7 +4,7 @@ use function BrainGames\engine\run;
 
 const GAME_DESCRIPTION = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
-function gamePrime()
+function playPrime()
 {
     $generateQuestionAndCorrectanswer = function () {
         $question = rand(2, 100);

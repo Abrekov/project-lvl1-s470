@@ -5,7 +5,7 @@ use function BrainGames\engine\run;
 const GAME_DESCRIPTION = 'What number is missing in the progression?';
 const LENGTH = 10;
 
-function gameProgression()
+function playProgression()
 {
     $generateQuestionAndCorrectanswer = function () {
         $beginOfSequence = rand(1, 100);

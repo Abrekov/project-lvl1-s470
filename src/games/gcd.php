@@ -12,7 +12,7 @@ function getGreatestCommonDivisor($a, $b)
     return getGreatestCommonDivisor($b, $a % $b);
 }
 
-function gameGcd()
+function playGcd()
 {
     $generateQuestionAndCorrectanswer = function () {
         $number1 = rand(1, 20);
