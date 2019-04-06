@@ -16,4 +16,4 @@ Game: "Calculator"
 
 Game: "GCD"
 
-
+<a href="https://asciinema.org/a/5qQWL7CDwrKkYYbCnhcUfx1FG" target="_blank"><img src="https://asciinema.org/a/5qQWL7CDwrKkYYbCnhcUfx1FG.svg" /></a>
