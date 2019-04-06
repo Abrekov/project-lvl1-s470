@@ -1,6 +1,6 @@
 <?php
 
-namespace BrainGames\Cli;
+namespace BrainGames\engine;
 use function \cli\line;
 use function \cli\prompt as getName;
 use function \cli\prompt as getAnswer;

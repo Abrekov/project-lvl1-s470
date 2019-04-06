@@ -1,7 +1,7 @@
 <?php
 namespace BrainGames\games\even;
 
-use function BrainGames\Cli\run;
+use function BrainGames\engine\run;
 
 function isEven(int $number)
 {

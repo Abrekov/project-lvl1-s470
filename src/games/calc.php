@@ -1,6 +1,6 @@
 <?php
 namespace BrainGames\games\calc;
-use function BrainGames\Cli\run;
+use function BrainGames\engine\run;
 
 const GAME_DESCRIPTION = 'What is the result of the expression?';
 const OPERATORS = ['+', '-', '*'];
