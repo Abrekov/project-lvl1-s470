@@ -20,3 +20,4 @@ Game: "GCD"
 
 Game: "Arithmetic Progression"
 
+<a href="https://asciinema.org/a/TdTNjvZgBXD04lW7zqYiLEe7D" target="_blank"><img src="https://asciinema.org/a/TdTNjvZgBXD04lW7zqYiLEe7D.svg" /></a>
