@@ -9,7 +9,7 @@ function playPrime()
     $generateQuestionAndCorrectanswer = function () {
         $question = rand(2, 100);
         $correctAnswer = isPrime($question) ? 'yes' : 'no';
-        return [$question, (string)$correctAnswer];
+        return [$question, $correctAnswer];
     };
     run(GAME_DESCRIPTION, $generateQuestionAndCorrectanswer);
 }
