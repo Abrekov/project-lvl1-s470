@@ -9,7 +9,7 @@ function playProgression()
 {
     $generateQuestionAndCorrectanswer = function () {
         $beginOfSequence = rand(1, 100);
-        $step = 2;
+        $step = rand(1, 10);
         $endOfSequence = $beginOfSequence + $step * (LENGTH - 1);
         $sequence = range($beginOfSequence, $endOfSequence, $step);
         $key = array_rand($sequence);
@@ -19,30 +19,3 @@ function playProgression()
     };
     run(GAME_DESCRIPTION, $generateQuestionAndCorrectanswer);
 }
-
-
-// function playProgression()
-// {
-//     $generateQuestionAndCorrectanswer = function () {
-//         $beginOfSequence = rand(1, 100);
-//         $step = 2;
-//         $correctAnswer = rand(0, LENGTH - 1) * $step + $beginOfSequence;
-//         $question = getQuestion($beginOfSequence, $step, LENGTH, $correctAnswer);
-//         $correctAnswer = (string) $correctAnswer;
-//         return [$question, $correctAnswer];
-//     };
-//     run(GAME_DESCRIPTION, $generateQuestionAndCorrectanswer);
-// }
-
-// function getQuestion($beginOfSequence, $step, $length, $correctAnswer)
-// {
-//     $endOfSequence = $beginOfSequence + $length * $step;
-//     for ($i = $beginOfSequence; $i < $endOfSequence; $i += $step) {
-//         if ($i === $correctAnswer) {
-//             $result = "{$result} ..";
-//         } else {
-//             $result = "{$result} {$i}";
-//         }
-//     }
-//     return $result;
-// }

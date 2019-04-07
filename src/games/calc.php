@@ -24,7 +24,7 @@ function playCalc()
         $operator = OPERATORS[array_rand(OPERATORS)];
         
         $question = "{$number1} {$operator} {$number2}";
-        $correctAnswer = (string)calculate($number1, $number2, $operator);
+        $correctAnswer = (string) calculate($number1, $number2, $operator);
         return [$question, $correctAnswer];
     };
     run(GAME_DESCRIPTION, $generateQuestionAndCorrectanswer);
